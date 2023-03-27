@@ -5,7 +5,8 @@
 }
 
 body {
-    background-color: hsl(225, 100%, 94%);
+    background: url(./images/pattern-background-desktop.svg), #E1E9Ff;
+    background-repeat: no-repeat, no-repeat;
     font-size: 16px;
     font-family: 'Red Hat Display', sans-serif;;
 }
@@ -80,7 +81,7 @@ body {
     text-decoration: none;
 }
 
-.main .box .box-button a button {
+.main .box .box-button button {
     padding: 15px;
     width: 75%;
     border: none;
